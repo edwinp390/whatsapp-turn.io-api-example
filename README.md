@@ -5,7 +5,7 @@ Second script will pull the CSV file to send messages to those contacts
 This uses the Turn.io [Messages](https://whatsapp.turn.io/docs/index.html#messages) and [Contacts](https://whatsapp.turn.io/docs/index.html#turn-contact-profile-api) API endpoints.
 
 # Getting Started
-```ruby
+```
 gem install jsonl
 gem install faraday
 ```
