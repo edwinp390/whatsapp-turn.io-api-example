@@ -24,25 +24,7 @@ ruby whatsapp-contacts.rb
 ruby whatsapp-api.rb
 ```
 
-# What this file does: <h1>
-### Ruby script generates API requests to Turn.io <h3>
-### Turn.io will then send a message via Whatsapp <h3>
-### whatsapp-api.rb file uses 4 strings to include in message <h3>
 
 
 
 
-
-
-
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
-
-
-
-*This text will be italic*
-_This will also be italic_
-**This text will be bold**
-__This will also be bold__
-*You **can** combine them*
