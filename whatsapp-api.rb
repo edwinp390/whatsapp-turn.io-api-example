@@ -1,8 +1,10 @@
 require "csv"
-require "pry"
 require 'json'
 require 'faraday'
-token = "your api token"
+require 'yaml'
+
+config = YAML.load_file('config.yml')
+token = config["token"]
 
 def send_message(message, profilename, token, whatsappid)
   response = Faraday.post('https://whatsapp.turn.io/v1/messages') do |req|
