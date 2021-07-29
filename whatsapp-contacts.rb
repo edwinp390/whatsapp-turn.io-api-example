@@ -1,12 +1,11 @@
 require "csv"
-require "pry"
 require 'faraday'
 require "jsonl"
 require 'yaml'
 
 config = YAML.load_file('config.yml')
 token = config["token"]
- 
+
 
 response = Faraday.get('https://whatsapp.turn.io/v1/export/contacts/details?format=json') do |req|
   req.headers['Authorization'] = "Bearer #{token}"

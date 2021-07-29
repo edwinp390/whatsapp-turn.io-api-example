@@ -1,5 +1,4 @@
 require "csv"
-require "pry"
 require 'json'
 require 'faraday'
 require 'yaml'
